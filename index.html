@@ -22,16 +22,22 @@
     
             <p class="txt">Desenvolvedor Web & Mobile</p>
             <div class="row">
-                <div class="col-md-4 col-sm-12 space">
+                <div class="col-md-3 col-sm-12 space">
                     <a class="btn btn-danger btn-block" href="https://api.whatsapp.com/send?phone=5574988064918&text=Ol%C3%A1%21&source=&data=" target="_blank"><i class="fab fa-whatsapp"></i> Whats app</a>
                 </div>
 
-                <div class="col-md-4 col-sm-12 space">
+                <div class="col-md-3 col-sm-12 space">
                     <a class="btn btn-danger btn-block" href="https://github.com/expartacos" target="_blank"><i class="fab fa-github"></i> Github</a>
                 </div>
 
-                <div class="col-md-4 col-sm-12 space">
+                <div class="col-md-3 col-sm-12 space">
                     <a class="btn btn-danger btn-block" href="https://www.linkedin.com/in/rafael-pereira-6ab560145/" target="_blank" ><i class="fab fa-linkedin-in"></i> Linkedin</a>
+                </div>
+
+                <div class="col-md-3 col-sm-12 space">
+                    <button type="button" class="btn btn-danger btn-block" data-toggle="modal" data-target="#telaemail">
+                        <i class="fas fa-paper-plane"></i>   Email
+                      </button>
                 </div>
 
 
@@ -46,6 +52,26 @@
         
         
     </header>
+    <!-- Modal -->
+    <div class="modal fade" id="telaemail" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Digite sua mensagem</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            </div>
+            <div class="modal-body">
+                <input type="email" class="form-control space-margem" id="emailTxt" placeholder="Digite seu email">
+                <textarea class="form-control " id="areaTxt" rows="3" placeholder="Escreva sua mensagem"></textarea>
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-danger btn-block" data-dismiss="modal">Enviar</button>
+            </div>
+        </div>
+        </div>
+    </div>
     
    
     
