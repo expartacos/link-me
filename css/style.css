@@ -1,0 +1,49 @@
+body{
+    background-image: url('../images/bg.jpg');
+    /* faz a imagem caber na tela */
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    text-align: center;
+    color: white;
+}
+
+.profile{
+    border-radius: 50%;
+    width:  15%;
+    border: 5px solid white;
+
+}
+
+.txt{
+    font-size: 50px;
+    font-style: inherit;
+}
+
+.link{
+    text-decoration: white;
+    color: white;
+    font-size: 20px;
+
+}
+
+.link:hover{
+    text-decoration: none;
+    color: brown;
+    font-size:  25px;
+}
+
+.space{
+    margin-right: 30px;
+}
+
+.btn{
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    border-radius: .25rem;
+    background-color: tomato;
+    border-color: tomato;
+    color: white;
+    text-decoration: none;
+}
